@@ -10,6 +10,7 @@ const CharactersCard = ({ image, name, country, url, handleUrl }) => {
                     <div className="h-3 aspect-square bg-green-apple rounded-full animate-pulse"></div>
                     <h5 className="">Alive</h5>
                 </div>
+                <p className="absolute right-0 px-2 -mt-[3px]">Click on avatar</p>
             </div>
             <article className="bg-black/70 w-full p-2 py-4 flex flex-col items-center gap-4">
                 <h2>{name}</h2>
